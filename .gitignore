@@ -1,0 +1,56 @@
+# --- Internal / local ---
+.workbuddy/
+.wbapp_*.genie
+*.genie
+
+# --- Editor / OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Backups, checkpoints and intermediate builds (keep the repo clean) ---
+*.bak
+*.bak2
+*.bak3
+index.html.before-*
+index.html.checkpoint-*
+*.pretty-before
+_build*.pptx
+_short.pptx
+
+# --- Test harness (local only, not part of the shipped product) ---
+.smoke*.js
+.stress*.js
+.feature*.js
+
+# --- Generated / scratch ---
+vc-sim/shots/
+vc-sim/kimi/
+shots/
+*.log
+
+# --- Local-only launcher (hardcoded absolute paths) ---
+vc-sim/START-VOICE-DEMO.cmd
+
+# --- PPT build intermediates & old drafts (keep only the final decks + docs) ---
+vc-pitch/.slidep/
+vc-pitch/slides/
+vc-pitch/slides_15pages_backup/
+vc-pitch/slides_16_backup/
+vc-pitch/slides_short/
+vc-pitch/slides_zh/
+vc-pitch/cn_strings.json
+vc-pitch/*.py
+vc-pitch/_build*.pptx
+vc-pitch/_short.pptx
+vc-pitch/Seed_Round_Simulator.pptx
+vc-pitch/Seed_Round_Simulator_v17.pptx
+vc-pitch/VC首轮融资模拟器.pptx
+vc-pitch/Seed_Round_Simulator_Project_Summary.pdf
+vc-pitch/VC首轮融资模拟器_项目摘要报告.pdf
+vc-pitch/Pitch_Short_6slides.pptx
+vc-pitch/assets/
+
+# --- Python caches ---
+__pycache__/
+*.pyc
